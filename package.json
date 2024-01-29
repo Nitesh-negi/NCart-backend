@@ -1,0 +1,25 @@
+{
+  "name": "ncart-backend",
+  "version": "1.0.0",
+  "description": "backend code for ncart app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nitesh-negi/ncart-backend.git"
+  },
+  "keywords": [
+    "e-commerce"
+  ],
+  "author": "Nitesh Negi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nitesh-negi/ncart-backend/issues"
+  },
+  "homepage": "https://github.com/Nitesh-negi/ncart-backend#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

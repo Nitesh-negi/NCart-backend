@@ -6,7 +6,7 @@ const mongoose = require('mongoose')
 const userRoutes = require('./api/routes/users');
 const bodyParser = require('body-parser');
 
-mongoose.connect('mongodb+srv://niteshnegi972:M5BqhdiV9EHQ6mJT@ncart.emlpawa.mongodb.net/?retryWrites=true&w=majority');
+mongoose.connect(process.env.DB_URI);
 
 app.use(morgan('common'))
 app.use(bodyParser.json())

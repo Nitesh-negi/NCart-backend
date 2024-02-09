@@ -1,5 +1,6 @@
 {
     "env": {
-        "JWT_KEY": "secrettest"
+        "JWT_KEY": "secrettest",
+        "DB_URI": "mongodb+srv://niteshnegi972:M5BqhdiV9EHQ6mJT@ncart.emlpawa.mongodb.net/?retryWrites=true&w=majority"
     }
 }
